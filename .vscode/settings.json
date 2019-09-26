@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\adam.worley\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "python.testing.pytestArgs": [
+        "1-basics"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
