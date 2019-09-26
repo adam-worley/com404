@@ -1,0 +1,6 @@
+print()
+print ("\tite cuz, mandem call me trapbot. I'm patterning this corner now you get me.")
+print("\thow many packs you after?")
+packs = int(input())
+print("\tyo thats £", packs*80,"cuz")
+print("\tthe yute over there ► will sort you out")
