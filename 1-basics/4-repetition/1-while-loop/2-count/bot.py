@@ -8,4 +8,3 @@ while(cable >0):
     print("avoiding...Done!", n,"live cable avoided.")
 print()
 print("All live cables have been avoided")
-
