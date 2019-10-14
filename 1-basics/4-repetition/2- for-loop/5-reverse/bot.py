@@ -1,7 +1,13 @@
-print("what phrase do you see?")
-phrase = input()
+print("What phrase do you see?")
+markings = input()
 print()
-print("reversing...")
+print("Reversing...")
 print()
-for char in range(len(phrase) - 1, -1, -1):
-  print(phrase[char], end="")
+x = len(markings)-1
+print("The phrase is: ",end="")
+for count in range(x, -1, -1):
+    print(markings[count],end="")
+
+
+    
+
