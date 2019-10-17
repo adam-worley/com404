@@ -27,10 +27,6 @@ def repeat(word):
         else:
             print(word.upper(),end="")
         n=n-1
-    
-        
-
-
 
 def run():
     print("Please enter a word to be deciphered")
