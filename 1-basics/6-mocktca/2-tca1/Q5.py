@@ -7,8 +7,17 @@ print("Your health is "+str(health)+"%. Escape is in progress ...")
 #Start loop
 while(repeat>0):
     print("...Oh dear, who is that?")
-    robot=str(input)
+    robot=str(input())
     if(robot =="Smiler's Bot"):
-        print
+        health=health-20
+        print("Time to jam out off here!")
+    elif(robot=="Hacker"):
+        health=health+20
+        print("Yay! Better follow this one!")
+    else:
+        print("Phew, just another emoji!")
+        health=health
     repeat=repeat-1
     print()
+#Recall health
+print("Escaped! Health is "+str(health)+"%.")
