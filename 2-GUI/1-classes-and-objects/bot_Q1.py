@@ -42,5 +42,3 @@ class Bot:
 b1 = Bot("Beep", 1, 8, 9)
 
 b1.display_summary()
-print()
-b1.__str__()
